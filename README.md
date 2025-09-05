@@ -52,7 +52,7 @@ mvn spring-boot:run
 The backend will start on http://localhost:8080
 
 
-###Frontend Setup
+### Frontend Setup
 
 1. Navigate to the frontend directory:
 ```bash
@@ -72,9 +72,9 @@ npm start
 The frontend will start on http://localhost:3000
 
 
-##API Endpoints
+## API Endpoints
 
-###The backend provides the following REST API endpoints:
+### The backend provides the following REST API endpoints:
 
 - GET /api/v1/employees - Get all employees
 
