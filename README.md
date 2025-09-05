@@ -38,3 +38,65 @@ This is a full-stack web application that demonstrates **CRUD (Create, Read, Upd
 
 ```bash
 cd springboot-backend
+
+Build the project using Maven:
+
+mvn clean install
+
+
+Run the Spring Boot application:
+
+mvn spring-boot:run
+
+
+The backend will start on http://localhost:8080
+.
+
+Frontend Setup
+
+Navigate to the frontend directory:
+
+cd react-frontend
+
+
+Install dependencies:
+
+npm install
+
+
+Start the React development server:
+
+npm start
+
+
+The frontend will start on http://localhost:3000
+.
+
+API Endpoints
+
+The backend provides the following REST API endpoints:
+
+GET /api/v1/employees - Get all employees
+
+POST /api/v1/employees - Create a new employee
+
+GET /api/v1/employees/{id} - Get employee by ID
+
+PUT /api/v1/employees/{id} - Update employee by ID
+
+DELETE /api/v1/employees/{id} - Delete employee by ID
+
+Usage
+
+Start both the backend and frontend servers as described above.
+
+Open your browser and navigate to http://localhost:3000
+.
+
+Use the UI to perform CRUD operations on employees.
+
+Author
+
+Abhi S
+Email: abhi136004@gmail.com
+
