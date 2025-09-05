@@ -38,65 +38,51 @@ This is a full-stack web application that demonstrates **CRUD (Create, Read, Upd
 
 ```bash
 cd springboot-backend
-
-Build the project using Maven:
-
+```
+2. Build the project using Maven:
+```bash
 mvn clean install
+```
 
-
-Run the Spring Boot application:
-
+3. Run the Spring Boot application:
+```bash
 mvn spring-boot:run
-
+```
 
 The backend will start on http://localhost:8080
-.
 
-Frontend Setup
 
-Navigate to the frontend directory:
+###Frontend Setup
 
+1. Navigate to the frontend directory:
+```bash
 cd react-frontend
+```
 
-
-Install dependencies:
-
+2. Install dependencies:
+```bash
 npm install
+````
 
-
-Start the React development server:
-
+3. Start the React development server:
+```bash
 npm start
-
+```
 
 The frontend will start on http://localhost:3000
-.
 
-API Endpoints
 
-The backend provides the following REST API endpoints:
+##API Endpoints
 
-GET /api/v1/employees - Get all employees
+###The backend provides the following REST API endpoints:
 
-POST /api/v1/employees - Create a new employee
+- GET /api/v1/employees - Get all employees
 
-GET /api/v1/employees/{id} - Get employee by ID
+- POST /api/v1/employees - Create a new employee
 
-PUT /api/v1/employees/{id} - Update employee by ID
+- GET /api/v1/employees/{id} - Get employee by ID
 
-DELETE /api/v1/employees/{id} - Delete employee by ID
+- PUT /api/v1/employees/{id} - Update employee by ID
 
-Usage
-
-Start both the backend and frontend servers as described above.
-
-Open your browser and navigate to http://localhost:3000
-.
-
-Use the UI to perform CRUD operations on employees.
-
-Author
-
-Abhi S
-Email: abhi136004@gmail.com
+- DELETE /api/v1/employees/{id} - Delete employee by ID
 
