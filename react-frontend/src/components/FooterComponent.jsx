@@ -1,23 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react';
 
-class FooterComponent extends Component {
-    constructor(props) {
-        super(props)
+const FooterComponent = () => {
+    return (
+        <footer className="footer">
+            <span className="text-muted">All Rights Reserved 2020 @JavaGuides</span>
+        </footer>
+    );
+};
 
-        this.state = {
-                 
-        }
-    }
-
-    render() {
-        return (
-            <div>
-                <footer className = "footer">
-                    <span className="text-muted">All Rights Reserved 2020 @JavaGuides</span>
-                </footer>
-            </div>
-        )
-    }
-}
-
-export default FooterComponent
+export default FooterComponent;
